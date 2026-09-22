@@ -1,0 +1,82 @@
+<svg viewBox="0 0 640 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Ilustrace: tvorba webu a AI asistent Claude</title>
+  <defs>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9A3C"/>
+      <stop offset="100%" stop-color="#FF5A00"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC24D"/>
+      <stop offset="100%" stop-color="#FF7A18"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2A2438"/>
+      <stop offset="100%" stop-color="#1B1726"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A18"/>
+      <stop offset="100%" stop-color="#FFB020"/>
+    </linearGradient>
+    <radialGradient id="softGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF7A18" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FF7A18" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="330" cy="260" r="270" fill="url(#softGlow)"/>
+  <circle cx="120" cy="470" r="90" fill="url(#softGlow)" opacity="0.6"/>
+
+  <g transform="translate(60,70)">
+    <rect x="0" y="0" width="420" height="300" rx="22" fill="url(#cardGrad)" stroke="#3A3350" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="6" fill="#FF5F57"/>
+    <circle cx="50" cy="28" r="6" fill="#FEBC2E"/>
+    <circle cx="72" cy="28" r="6" fill="#28C840"/>
+    <rect x="100" y="18" width="220" height="20" rx="10" fill="#33304A"/>
+
+    <g transform="translate(24,64)">
+      <rect x="0" y="0" width="270" height="46" rx="12" fill="#332B47"/>
+      <text x="16" y="29" font-family="Arial, sans-serif" font-size="15" fill="#FFD9AE">Vytvoř mi jednoduchou webovku &gt;</text>
+    </g>
+
+    <g transform="translate(80,124)">
+      <rect x="0" y="0" width="292" height="56" rx="14" fill="url(#barGrad)"/>
+      <text x="20" y="24" font-family="Arial, sans-serif" font-size="13" fill="#3A1D00" font-weight="700">Claude</text>
+      <text x="20" y="44" font-family="Arial, sans-serif" font-size="13" fill="#3A1D00">Jasně! Připravuji návrh stránky…</text>
+    </g>
+
+    <rect x="24" y="198" width="372" height="10" rx="5" fill="#3A3350"/>
+    <rect x="24" y="198" width="260" height="10" rx="5" fill="url(#barGrad)"/>
+    <rect x="24" y="222" width="372" height="10" rx="5" fill="#3A3350"/>
+    <rect x="24" y="222" width="150" height="10" rx="5" fill="url(#glow2)"/>
+
+    <g transform="translate(24,252)">
+      <rect x="0" y="0" width="140" height="34" rx="17" fill="url(#barGrad)"/>
+      <text x="70" y="22" font-family="Arial, sans-serif" font-size="13" fill="#3A1D00" font-weight="700" text-anchor="middle">Publikovat</text>
+    </g>
+  </g>
+
+  <g transform="translate(430,40)">
+    <circle cx="46" cy="46" r="46" fill="url(#glow1)"/>
+    <path d="M46 20 L52 40 L72 46 L52 52 L46 72 L40 52 L20 46 L40 40 Z" fill="#FFF3E6"/>
+  </g>
+
+  <g transform="translate(30,340)">
+    <rect x="0" y="0" width="200" height="150" rx="18" fill="url(#cardGrad)" stroke="#3A3350" stroke-width="1.5"/>
+    <text x="18" y="34" font-family="Arial, sans-serif" font-size="13" fill="#FFB020" font-weight="700">GitHub Pages</text>
+    <path d="M18 100 c0-22 18-40 40-40 s40 18 40 40" fill="none" stroke="#FF9A3C" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="58" cy="58" r="16" fill="url(#glow2)"/>
+    <text x="18" y="132" font-family="Arial, sans-serif" font-size="12" fill="#D8CFE8">Web publikovaný zdarma</text>
+  </g>
+
+  <g transform="translate(300,400)">
+    <rect x="0" y="0" width="230" height="110" rx="18" fill="url(#cardGrad)" stroke="#3A3350" stroke-width="1.5"/>
+    <circle cx="34" cy="34" r="16" fill="url(#barGrad)"/>
+    <path d="M27 34 l5 6 l11 -14" fill="none" stroke="#3A1D00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="30" font-family="Arial, sans-serif" font-size="13" fill="#FFF3E6" font-weight="700">Žádné programování</text>
+    <text x="60" y="50" font-family="Arial, sans-serif" font-size="12" fill="#B9AFCB">Popíšeš, co chceš.</text>
+    <circle cx="34" cy="78" r="16" fill="url(#glow1)"/>
+    <path d="M27 78 l5 6 l11 -14" fill="none" stroke="#3A1D00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="74" font-family="Arial, sans-serif" font-size="13" fill="#FFF3E6" font-weight="700">2 dny, praxe</text>
+    <text x="60" y="94" font-family="Arial, sans-serif" font-size="12" fill="#B9AFCB">Reálné výstupy s sebou.</text>
+  </g>
+</svg>
